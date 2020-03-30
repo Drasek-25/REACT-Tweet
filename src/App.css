@@ -1,0 +1,49 @@
+.button{
+  background-color: transparent;
+  border-radius: 50%;
+  border: transparent;
+}
+.row  {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+.col  {
+  display: flex;
+  flex-direction: column;
+  margin: auto 20px auto 20px;
+}
+.app  {
+  width: 620px;
+  height: auto;
+  margin: auto;
+  border: black 1px solid;
+  padding: 5px;
+  margin-top: 20px;
+}
+.avatar {
+  margin: auto 20px auto 20px;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #4F5054;
+  margin: auto 10px auto 10px;
+  border-radius: 50%;
+}
+*{
+letter-spacing: .05em;
+    font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.buttonBar{
+  display: flex;
+  justify-content: space-between;
+}
+.message{
+  font-size: 18px;
+  max-width: 420px;
+}
+.handle{
+  margin-right: 20px;
+}
